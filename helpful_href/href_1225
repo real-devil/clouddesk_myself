@@ -1,0 +1,17 @@
+https://blog.csdn.net/qq_23659871/article/details/85001539        查看maven setting配置项意义
+https://blog.csdn.net/c1481118216/article/details/80403655        修改前后命令行端口的path不同，会更新
+https://blog.csdn.net/xlgen157387/article/details/56498938        Tomcat部署时war和war exploded区别以及平时踩得坑
+https://www.cnblogs.com/manhuidhu/p/6845588.html                  The content of element type "web-app" must match "(icon?display
+
+
+Caused by: java.io.FileNotFoundException: D:\128file\eclipse-jee-juno-SR2-win32-x86_64\IdeaProjects\clouddesk_myself\target\ssm13\META-INF\context.xml
+原因：module web配置错误，add application server specific description——>glassfish web,sun
+主要是相关描述错误
+
+https://bbs.csdn.net/topics/390422509                             element servler-class is not allowed here
+
+servlet-class在root标记文件夹下直接寻找，这里直接com开始，因为com是root文件夹java下的一级目录
+
+https://www.cnblogs.com/superjt/p/3309255.html                    springmvc的配置
+
+servlet和requestmapping？？？？？？？？？？
