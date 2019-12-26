@@ -11,7 +11,7 @@
 
 
 <a href="html/test.html">jump</a>
-<form method="post" action="${pageContext.request.contextPath}/test">
+<form method="post" action="testaa">
     姓名：<input type="text" name="uname"/><br>
     密码：<input type="password" name="upwd"/><br>
     性别：<input type="radio" name="ugender" value="1"/>男
